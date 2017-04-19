@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/contact.css" type="text/css">
+</head>
+<body>
+    <header>
+     <a href="index.html" class="logo1"></a>
+      <nav>
+          <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+      </nav>
+    </header>
+    <section class="section1">
+        <div class="address">
+ 			<h3>Office Location</h3>							
+ 			<p><i class="glyphicon glyphicon-map-marker"> <strong>Address: </strong> Mountain View 3134/2034</i></p>
+ 			<p><i class="glyphicon glyphicon-earphone"> <strong>Phone: </strong> (09)-382472832</i></p>
+ 			<p><i class="glyphicon glyphicon-globe"> <strong>Email: </strong> <a href="">contact@bizzcode.com</a></i></p>						
+        </div>
+        <div class="clear"></div>
+        <div id="googleMap">
+ 			<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:346px;width:540px;'><div id='gmap_canvas' style='height:346px;width:540px;'></div><div><small><a href="http://embedgooglemaps.com">Embed your Google Map here!</a></small></div><div><small><a href="http://freedirectorysubmissionsites.com/">overview of all web directories 2016</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:11,center:new google.maps.LatLng(37.3860517,-122.0838511),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(37.3860517,-122.0838511)});infowindow = new google.maps.InfoWindow({content:'<strong>BizzCode Office</strong><br>Mountain View<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+        </div> 
+    </section>
+    <section>
+        <h1>Drop a line to BizzCode</h1>
+        <p>Typically reply within a day!</p>
+        <div class="form">
+            <form>
+                <div class="form-group">
+                    <input type="name" class="form-control" ID="FullName" placeholder="Full Name">
+                </div>
+                <div class="form-group">
+                    <input type="website" class="form-control" ID="WebSite" placeholder="Web link">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" ID="EmailAdress" placeholder="E-mail Address">
+                </div>    
+                <textarea class="form-control" placeholder="Message" rows="8"></textarea>
+            </form>	
+        </div>
+        <button type="submit" class="drop">Submit</button>	        
+    </section>
+    
+    <div class="clear"></div>
+    
+    <footer>
+       <h3>&copy 2016 All Right Reserved Bizzcode</h3>
+   </footer>
+   <script src="js/main.js" type="text/javascript"></script> 
+</body>
+</html>

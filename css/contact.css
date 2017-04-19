@@ -1,0 +1,54 @@
+section{
+    padding-top: 120px;
+    float: left;
+    width: 50%;
+    height:550px; 
+    padding-bottom: 20px;
+    text-align: center;
+    background: #bc3535;
+    overflow: hidden;
+}
+.address{
+    padding-bottom: 20px;
+    line-height: 2;
+}
+section a{
+    color: black;
+}
+#googleMap{
+    overflow: hidden;
+    height: 300px;
+    width: 500px;
+    margin: 0 auto;
+    
+}
+section h1{
+    padding: 20px;
+    margin: 25px 0 10px 0;
+}
+.form{
+    width: 60%;
+    margin:15px auto;
+}
+.form-group input{
+    padding: 15px 0;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+textarea{
+    width: 100%;
+    border-radius: 10px;
+}
+.drop{
+    padding: 20px 30px;
+    border: none;
+    color:black;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.drop:hover{
+    cursor: pointer;
+    background: #d37a7a;
+    border: none;
+}
