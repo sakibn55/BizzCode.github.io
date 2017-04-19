@@ -3,8 +3,7 @@
  * Copyright 2012 WooThemes
  * Contributing Author: Tyler Smith
  */
-;
-(function ($) {
+$(document).ready(function() {
 
   var focused = true;
 
@@ -1192,4 +1191,4 @@
       }
     }
   };
-})(jQuery);
+});
